@@ -1,0 +1,10 @@
+.news-section{
+    width:60%;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    padding-top:110px;
+    margin-left: auto;
+    margin-right: auto;
+}
