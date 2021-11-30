@@ -29,6 +29,8 @@ export default function Landing() {
 	 */
 	const handleSearchText = (searchText) => {
 		setSearchText(searchText);
+		setNewsData([]);
+		setTotalRecords([]);
 		setPageIndex(1);
 		setHasMore(true);
 	};
